@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Smartmom.Models.Item>
+
+@{
+    ViewBag.Title = "Item";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>Item</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Item</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
