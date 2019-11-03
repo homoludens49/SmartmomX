@@ -179,12 +179,126 @@
     <Compile Include="Migrations\201911021609029_InitialModel.Designer.cs">
       <DependentUpon>201911021609029_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911021722171_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\201911021722171_AddIsSubscribedToCustomer.Designer.cs">
+      <DependentUpon>201911021722171_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021727299_AddMembershipType.cs" />
+    <Compile Include="Migrations\201911021727299_AddMembershipType.Designer.cs">
+      <DependentUpon>201911021727299_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021728590_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\201911021728590_PopulateMembershipTypes.Designer.cs">
+      <DependentUpon>201911021728590_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021843172_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201911021843172_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201911021843172_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021901007_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201911021901007_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201911021901007_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021903330_PopulateNameMembershipTypes.cs" />
+    <Compile Include="Migrations\201911021903330_PopulateNameMembershipTypes.Designer.cs">
+      <DependentUpon>201911021903330_PopulateNameMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021914326_ApplyAnnotationToNameMembershipTypes.cs" />
+    <Compile Include="Migrations\201911021914326_ApplyAnnotationToNameMembershipTypes.Designer.cs">
+      <DependentUpon>201911021914326_ApplyAnnotationToNameMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021932598_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\201911021932598_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>201911021932598_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911021937110_SetBirthDate.cs" />
+    <Compile Include="Migrations\201911021937110_SetBirthDate.Designer.cs">
+      <DependentUpon>201911021937110_SetBirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022047309_AddItemparameters.cs" />
+    <Compile Include="Migrations\201911022047309_AddItemparameters.Designer.cs">
+      <DependentUpon>201911022047309_AddItemparameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022050484_PopulateItemProperties.cs" />
+    <Compile Include="Migrations\201911022050484_PopulateItemProperties.Designer.cs">
+      <DependentUpon>201911022050484_PopulateItemProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022105451_AddItemAndBrand.cs" />
+    <Compile Include="Migrations\201911022105451_AddItemAndBrand.Designer.cs">
+      <DependentUpon>201911022105451_AddItemAndBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022106335_PopulateBrand.cs" />
+    <Compile Include="Migrations\201911022106335_PopulateBrand.Designer.cs">
+      <DependentUpon>201911022106335_PopulateBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022110127_FinalPopulateBrands.cs" />
+    <Compile Include="Migrations\201911022110127_FinalPopulateBrands.Designer.cs">
+      <DependentUpon>201911022110127_FinalPopulateBrands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022112465_PopulateBrandsThirdAttempt.cs" />
+    <Compile Include="Migrations\201911022112465_PopulateBrandsThirdAttempt.Designer.cs">
+      <DependentUpon>201911022112465_PopulateBrandsThirdAttempt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022116217_AddItemsProperties2.cs" />
+    <Compile Include="Migrations\201911022116217_AddItemsProperties2.Designer.cs">
+      <DependentUpon>201911022116217_AddItemsProperties2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022136006_UpdateItemID.cs" />
+    <Compile Include="Migrations\201911022136006_UpdateItemID.Designer.cs">
+      <DependentUpon>201911022136006_UpdateItemID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022141157_AddItemsProperties3.cs" />
+    <Compile Include="Migrations\201911022141157_AddItemsProperties3.Designer.cs">
+      <DependentUpon>201911022141157_AddItemsProperties3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022144575_RemoveBrandsFromItems.cs" />
+    <Compile Include="Migrations\201911022144575_RemoveBrandsFromItems.Designer.cs">
+      <DependentUpon>201911022144575_RemoveBrandsFromItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022145397_AddItemsProperties4.cs" />
+    <Compile Include="Migrations\201911022145397_AddItemsProperties4.Designer.cs">
+      <DependentUpon>201911022145397_AddItemsProperties4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022218014_AddBrandInItem.cs" />
+    <Compile Include="Migrations\201911022218014_AddBrandInItem.Designer.cs">
+      <DependentUpon>201911022218014_AddBrandInItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911022228019_BrandUpdate.cs" />
+    <Compile Include="Migrations\201911022228019_BrandUpdate.Designer.cs">
+      <DependentUpon>201911022228019_BrandUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911030707311_NewFixes.cs" />
+    <Compile Include="Migrations\201911030707311_NewFixes.Designer.cs">
+      <DependentUpon>201911030707311_NewFixes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911030709289_AddDatabaseIDtoItems.cs" />
+    <Compile Include="Migrations\201911030709289_AddDatabaseIDtoItems.Designer.cs">
+      <DependentUpon>201911030709289_AddDatabaseIDtoItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911031202376_BrandIDtoOtherItems.cs" />
+    <Compile Include="Migrations\201911031202376_BrandIDtoOtherItems.Designer.cs">
+      <DependentUpon>201911031202376_BrandIDtoOtherItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911031203313_BrandName.cs" />
+    <Compile Include="Migrations\201911031203313_BrandName.Designer.cs">
+      <DependentUpon>201911031203313_BrandName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911031207006_BrandID.cs" />
+    <Compile Include="Migrations\201911031207006_BrandID.Designer.cs">
+      <DependentUpon>201911031207006_BrandID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911031212145_FinalFixes.cs" />
+    <Compile Include="Migrations\201911031212145_FinalFixes.Designer.cs">
+      <DependentUpon>201911031212145_FinalFixes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\RandomItemViewModel.cs" />
@@ -251,6 +365,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Item\Index.cshtml" />
+    <Content Include="Views\Item\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -272,6 +387,90 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911021609029_InitialModel.resx">
       <DependentUpon>201911021609029_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021722171_AddIsSubscribedToCustomer.resx">
+      <DependentUpon>201911021722171_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021727299_AddMembershipType.resx">
+      <DependentUpon>201911021727299_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021728590_PopulateMembershipTypes.resx">
+      <DependentUpon>201911021728590_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021843172_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201911021843172_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021901007_AddNameToMembershipType.resx">
+      <DependentUpon>201911021901007_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021903330_PopulateNameMembershipTypes.resx">
+      <DependentUpon>201911021903330_PopulateNameMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021914326_ApplyAnnotationToNameMembershipTypes.resx">
+      <DependentUpon>201911021914326_ApplyAnnotationToNameMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021932598_AddBirthDateToCustomer.resx">
+      <DependentUpon>201911021932598_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911021937110_SetBirthDate.resx">
+      <DependentUpon>201911021937110_SetBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022047309_AddItemparameters.resx">
+      <DependentUpon>201911022047309_AddItemparameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022050484_PopulateItemProperties.resx">
+      <DependentUpon>201911022050484_PopulateItemProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022105451_AddItemAndBrand.resx">
+      <DependentUpon>201911022105451_AddItemAndBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022106335_PopulateBrand.resx">
+      <DependentUpon>201911022106335_PopulateBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022110127_FinalPopulateBrands.resx">
+      <DependentUpon>201911022110127_FinalPopulateBrands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022112465_PopulateBrandsThirdAttempt.resx">
+      <DependentUpon>201911022112465_PopulateBrandsThirdAttempt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022116217_AddItemsProperties2.resx">
+      <DependentUpon>201911022116217_AddItemsProperties2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022136006_UpdateItemID.resx">
+      <DependentUpon>201911022136006_UpdateItemID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022141157_AddItemsProperties3.resx">
+      <DependentUpon>201911022141157_AddItemsProperties3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022144575_RemoveBrandsFromItems.resx">
+      <DependentUpon>201911022144575_RemoveBrandsFromItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022145397_AddItemsProperties4.resx">
+      <DependentUpon>201911022145397_AddItemsProperties4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022218014_AddBrandInItem.resx">
+      <DependentUpon>201911022218014_AddBrandInItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911022228019_BrandUpdate.resx">
+      <DependentUpon>201911022228019_BrandUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911030707311_NewFixes.resx">
+      <DependentUpon>201911030707311_NewFixes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911030709289_AddDatabaseIDtoItems.resx">
+      <DependentUpon>201911030709289_AddDatabaseIDtoItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911031202376_BrandIDtoOtherItems.resx">
+      <DependentUpon>201911031202376_BrandIDtoOtherItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911031203313_BrandName.resx">
+      <DependentUpon>201911031203313_BrandName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911031207006_BrandID.resx">
+      <DependentUpon>201911031207006_BrandID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911031212145_FinalFixes.resx">
+      <DependentUpon>201911031212145_FinalFixes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -10,14 +10,16 @@
         <thead>
             <tr>
                 <th>Item</th>
+                <th>Brand</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>@item.Name</td>
-                </tr>
+            <tr>
+                <td>@Html.ActionLink(item.Name, "Details", "Item", new { id = item.ItemId }, null)</td>
+                <td>@item.Brand.BrandName</td>
+            </tr>
             }
         </tbody>
     </table>

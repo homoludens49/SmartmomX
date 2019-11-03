@@ -23,7 +23,7 @@ namespace Smartmom
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap_darkly.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
     }
