@@ -24,6 +24,8 @@ namespace Smartmom.Models
         public DbSet<Item> Items { get; set; }
         public DbSet<Brand> Brand { get; set; }
 
+        public DbSet<MembershipType> MembershipTypes { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
